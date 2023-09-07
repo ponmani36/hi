@@ -1,0 +1,54 @@
+
+h1{
+    color: darkblue;    
+    height: 70px;
+    background-color: darkseagreen;
+    background-image: url(bg3.jpg);
+    width: 1000px;
+    padding: 20px;
+    font-family: 'Tilt Prism', cursive;
+   
+}
+body{
+   background-image:url(%E2%80%94Pngtree%E2%80%94background%20biru%20keren%20dan%20kosong_1456303.png);
+}
+fieldset{
+ height:auto;
+}
+
+}
+#bag{
+    margin-left: 4px;
+   text-align: center;
+    margin: 12px;
+}
+.buy-button {
+  padding: 10px 20px;
+  background-color:orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+    margin: 10px;
+  
+}
+    label{
+    width: 200px;
+    display: inline-block;
+    margin-left: 4px;
+        text-align: left;}
+ #btn{
+  padding: 10px 20px;
+  background-color:orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+   margin-top: 20px;
+        }
+#labelname{
+    color: blueviolet;
+    font-family:fantasy;
+    margin-top: 20px;
+    
+}

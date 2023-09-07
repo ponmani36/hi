@@ -1,0 +1,52 @@
+<html>
+    <head>
+    <title>Grocery shopping</title>
+    <link rel= "stylesheet" href="style.css">
+  <script src="main.js"></script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<meta name="viewport"content="width=device-width,initial-scale=1.0"/>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        
+
+</head>
+<body>
+   <center>
+       <h1>
+       SUPER GROCERY SHOP </h1>
+<from>
+        <fieldset>
+<!--    <legend>Buy Your Things Here</legend>-->
+            <label for="name"> Enter Your Name :</label><input type="text" name="name"><br>
+            <label for="moblie no">Enter Your Mobile NO:</label><input type="number"name="mobile no"><br>
+                        <div id="bag">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;NEED BAG&emsp;&emsp;
+            <label class="radio-label"><input type="radio" name="bag" value="yes"> YES</label>
+            <label class="radio-label"><input type="radio" name="bag" value="no">NO</label></div>
+            <label for="grocery">Select Your Product section:</label> 
+            <select id="grocery" name="grocery"><option value="dairy">DAIRY</option>
+            <option value="meat">MEAT</option>
+            <option value="fruits">FRUITS</option>
+            <option value="veggies">VEGGIES</option>
+            <option value="snacks">SNACKS</option>
+            <option value="drygoods">DRYGOODS</option>
+            </select ><br>
+
+            <div><input id="input1" placeholder="Enter Your product"><br>
+                 <button onclick="addname()" id="btn"> click Here to add Product</button>
+                 <label id="labelname">List Of Product</label><br>
+                 </div>
+    </fieldset>
+       <button class="buy-button">BUY</button>
+       </from>
+    </center> 
+    <style>
+        input{
+margin-top: 20px;   
+}
+        #grocery{
+            margin-right: 70px;
+            margin-top: 20px;
+        }
+
+    </style>
+</body>
+</html>
